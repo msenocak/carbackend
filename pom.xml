@@ -12,11 +12,8 @@
 	<artifactId>cardatabase</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>ch01-cardatabase-sfs</name>
-<<<<<<< HEAD
 	<description>cardatabase project for Spring Boot</description>
-=======
 	<description>Demo project for Spring Boot</description>
->>>>>>> 44d6fc628f99e212197da023a3cd2977155f4e8e
 	<properties>
 		<java.version>11</java.version>
 	</properties>
