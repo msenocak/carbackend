@@ -85,15 +85,13 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-<<<<<<< HEAD
-	
-=======
+	    <?ignore
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
 			<scope>test</scope>
-		</dependency>		
->>>>>>> 44d6fc628f99e212197da023a3cd2977155f4e8e
+		</dependency>
+		?>
 	</dependencies>
 	
 
@@ -104,12 +102,9 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
 					<executable>true</executable>
-<<<<<<< HEAD
 					<?ignore
 					<mainClass>com.packt.cardatabase.CardatabaseApplication</mainClass>
 					?>
-=======
->>>>>>> 44d6fc628f99e212197da023a3cd2977155f4e8e
 				</configuration>
 			</plugin>
 		</plugins>
