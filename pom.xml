@@ -12,7 +12,11 @@
 	<artifactId>cardatabase</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>ch01-cardatabase-sfs</name>
+<<<<<<< HEAD
 	<description>cardatabase project for Spring Boot</description>
+=======
+	<description>Demo project for Spring Boot</description>
+>>>>>>> 44d6fc628f99e212197da023a3cd2977155f4e8e
 	<properties>
 		<java.version>11</java.version>
 	</properties>
@@ -85,7 +89,15 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+<<<<<<< HEAD
 	
+=======
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<scope>test</scope>
+		</dependency>		
+>>>>>>> 44d6fc628f99e212197da023a3cd2977155f4e8e
 	</dependencies>
 	
 
@@ -96,9 +108,12 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
 					<executable>true</executable>
+<<<<<<< HEAD
 					<?ignore
 					<mainClass>com.packt.cardatabase.CardatabaseApplication</mainClass>
 					?>
+=======
+>>>>>>> 44d6fc628f99e212197da023a3cd2977155f4e8e
 				</configuration>
 			</plugin>
 		</plugins>
